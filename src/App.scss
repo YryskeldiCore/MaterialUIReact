@@ -1,0 +1,23 @@
+.wrapper {
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 300px;
+  height: 150px;
+  background-color: pink;
+  padding: 20px 20px;
+  &__descr {
+    margin-top: 100px;
+    &_price {
+      color: red;
+    }
+    &_rating {
+      font-size: 14px;
+    }
+  }
+}
